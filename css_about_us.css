@@ -1,0 +1,31 @@
+/* About Us Page Styling */
+.about-container {
+    max-width: 800px;
+    margin: 80px auto; /* Add top margin to account for fixed header */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about-container h1 {
+    font-size: 2em;
+    color: #1e90ff;
+    margin-bottom: 10px;
+}
+
+.mission-section, .team-section {
+    margin: 20px 0;
+}
+
+.mission-section h3, .team-section h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.mission-section p, .team-section p {
+    color: #555;
+    line-height: 1.6;
+}

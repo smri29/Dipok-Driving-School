@@ -1,0 +1,11 @@
+/* select_course.css */
+.course-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.course-item {
+    border: 1px solid #333;
+    padding: 15px;
+    text-align: center;
+}

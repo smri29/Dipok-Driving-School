@@ -1,0 +1,80 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Header Styling */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #1c1c1c;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Logo Styling */
+header .logo a {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Navigation Buttons Styling */
+.nav-buttons a {
+    color: #d1d1d1;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 500;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover and Active Effects */
+.nav-buttons a:hover {
+    color: #fff;
+    background-color: #333333;
+}
+
+.nav-buttons a.active {
+    color: #ffffff;
+    background-color: #444444;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+    header nav {
+        flex-direction: column;
+    }
+
+    .nav-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-buttons a {
+        margin: 8px 0;
+        width: 100%;
+        text-align: center;
+    }
+}

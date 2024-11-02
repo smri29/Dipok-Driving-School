@@ -1,0 +1,55 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    padding-top: 70px; /* Offset for fixed header */
+    padding-bottom: 50px; /* Offset for fixed footer */
+}
+
+/* Main Content Styling */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 120px); /* Adjust for header and footer height */
+}
+
+.welcome-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+.welcome-section h1 {
+    font-size: 2em;
+    color: #1e90ff; /* DodgerBlue for a welcoming tone */
+    margin-bottom: 15px;
+}
+
+.welcome-section p {
+    font-size: 1.2em;
+    color: #555;
+}
+.video-section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-section video {
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Set a max width if needed */
+}
+
